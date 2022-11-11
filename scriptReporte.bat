@@ -1,4 +1,3 @@
-cd "C:\Users\danie\OneDrive\Escritorio\Técnicas de ingeniería de software\Evaluaciones\Evaluación 2\mtisw2_reporte"
 git add *
 git commit -m "avance"
 git push
