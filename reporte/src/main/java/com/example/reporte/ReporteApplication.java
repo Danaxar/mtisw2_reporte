@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReporteApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Running.");
 		SpringApplication.run(ReporteApplication.class, args);
+		System.out.println("Running.");
 	}
 
 }
