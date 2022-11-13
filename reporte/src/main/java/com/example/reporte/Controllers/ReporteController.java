@@ -23,6 +23,9 @@ public class ReporteController {
         if(salida.isEmpty()){
             return ResponseEntity.noContent().build();
         }
+        for(int i = 0; i < salida.size(); i++){
+            sueldoService.printSueldo(salida.get(i));
+        }
         return ResponseEntity.ok(salida);
     }
 }
