@@ -18,8 +18,8 @@ public class SueldoService {
 
     public List<SueldoModel> getAll(){
         System.out.println("SueldoService: Obteniendo sueldos...");
-        //String url = "http://sueldo-microservice/sueldo/all/";
-        String url = "http://localhost:8085/sueldo/all/";
+        String url = "http://sueldo-microservice/sueldo/all/";
+//        String url = "http://localhost:8085/sueldo/all/";
         ResponseEntity<Object[]> response = restTemplate.getForEntity(url, Object[].class);
         System.out.println("request terminado.");
         Object[] records = response.getBody();
